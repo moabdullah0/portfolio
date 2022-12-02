@@ -35,6 +35,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .front{
     font-weight: bold;
 }
+.text1{
+	font-size: 1.2rem;
+}
 /*My Skills*/
 .skills{
     height: 70vh;
@@ -90,6 +93,7 @@ border-bottom:2px solid rgba( 169, 85, 85, 0.4 );
 .textcontact{
     margin-top: 20px;
 }
+
 /*Contact US*/
 :root {
 	/* COLORS */
@@ -295,12 +299,38 @@ border-bottom:2px solid rgba( 169, 85, 85, 0.4 );
     .card1{
         width: 80%;
     }
-    .card2 , .card3{
+    .card2 {
         margin-left: 10%;
     }
     .card11{
         margin-left: 10%;
     }
+	.card3{
+		margin-right: 60%;
+	}
     .skills{
         height: 160vh;
-    }}
+    }
+.img2{
+	display: none;
+}}
+	@media(min-width:768px){
+.home{
+	height:40vh;
+}
+.card11{
+	height:30vh;
+	width: 25vh;
+	position: absolute;
+	left: 50%;
+}
+.card2{
+	position: absolute;
+	left: 20%;
+	height:30vh;
+	width: 25vh;
+}
+.card3{
+	display: none;
+}
+	}

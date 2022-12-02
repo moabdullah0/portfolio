@@ -14,7 +14,7 @@
 </head>
 <body>
     <section>
-        <nav class="navbar navbar-expand-lg  text-black">
+        <nav class="navbar navbar-expand-lg  text-black ">
             <div class="container">
               <a class="navbar-brand text-danger "  href="#">portfolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +23,17 @@
               <div class="collapse navbar-collapse text-black" id="navbarSupportedContent">
                 <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto ">
                   <li class="nav-item">
-                    <a class="nav-link active  text-black" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active  text-black" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  text-black" href="#">MySkills</a>
+                    <a class="nav-link  text-black" href="#skills">MySkills</a>
                   </li>
                  
                   <li class="nav-item">
-                    <a class="nav-link  text-black">Projects</a>
+                    <a class="nav-link  text-black" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  text-black">Contact Me</a>
+                    <a class="nav-link  text-black" href="#contactme">Contact Me</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -44,14 +44,14 @@
           </nav>
          
     </section>
-    <div class="home">
+    <div class="home" id="home">
       <div class="container">
         
           <div class="row">
           <div class="col-sm-6 colme">
-            <h3>Hello Dear</h3>
-            <h4>Iam Mohamed Alibrahem</h4>
-            <h4 class="text-danger front">Front End Devoloper</h4>
+            <h1>Hello Dear</h1>
+            <h2>Iam Mohamed Alibrahem</h4>
+            <h2 class="text-danger front">Front End Devoloper</h2>
            <a href="" class="btn btn-danger">Download CV</a>
           </div>
           <div class="col-sm-6 colmeimg">
@@ -62,27 +62,27 @@
       </div>
   </div>
    
- <section class="skills mt-5">
+ <section class="skills mt-5" id="skills">
   <div class="container">
     <h2 class="text-center mt-5 fw-bold">Skills</h2>
     <div class="row">
+      <div class="col-sm-3 py-xsm-5  card1 card2">
+        <h2 class="text-center mt-5 py-xsm-5">Front End Developer</h2>
+        <p class="text-center text1"> I create website interfaces using <span class="fw-bold"> Html & CSS & Java Script</span></p>
+      </div>
       <div class="col-sm-3 mx-sm-5 card11  card1">
         <h2 class="text-center mt-5 git py-xsm-5">Git&Github</h2>
-        <p class="text-center mt-5">I can handle Git and upload projects to github repository</p>
+        <p class="text-center mt-5 text1">I can handle Git and upload projects to github repository</p>
       </div>
-      <div class="col-sm-3 mx-sm-4 py-xsm-5  card1 card2">
-        <h2 class="text-center mt-5 py-xsm-5">Front End Developer</h2>
-        <p class="text-center">I have experience in dealing with languages through which website interfaces are built, namely <span class="fw-bold"> Html & CSS & Java Script</span></p>
-      </div>
-      <div class="col-sm-3 py-xsm-5 mx-5 card1 card3">
+      <div class="col-sm-3 py-xsm-5  card1 card3">
         <h2 class="text-center mt-5 pt-3">Frame Work</h2>
-        <p class="text-center mt-5">Bootstrap & Sass & ReactJs & TailwindCSS </p>
+        <p class="text-center mt-5 text1">Bootstrap & Sass & ReactJs & TailwindCSS </p>
       </div>
       
     </div>
   </div>
  </section>
- <section class="projects">
+ <section class="projects" id="projects">
 <div class="container">
   <h1 class="mt-5 text-center fw-bolder">My Projects </h1>
 <div class="row">
@@ -110,7 +110,7 @@
 
 </div>
  </section>
- <section class="contactme">
+ <section class="contactme" id="contactme">
   <div class="container">
   <h2 class="text-center fw-bolder textcontact ">Contact US </h2>
   <div class="row">
@@ -124,7 +124,7 @@
       </form>
     </div>
     <div class="col-lg-6 col-xsm-10">
-      <img src="images/form.svg" class="img-fluid" width="80%" alt="">
+      <img src="images/form.svg" class="img-fluid img2" width="80%" alt="">
     </div>
   </div>
   </div>
